@@ -5,6 +5,7 @@ import dev.ahmed.exer.Employee;
 import org.junit.Test;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * @author Ahmed Bughra
@@ -37,14 +38,21 @@ public class GenericTest1 {
     public void test3() {
         ArrayList<String> list1 = null;
         ArrayList<Integer> list2 = null;
-        // it can not be copy just becaue the generic types are different
+        // it can not be copy  because the generic types are different
 //        list1 = list2;
 
         Employee p1 = null;
         Employee p2 = null;
         p1 = p2;
+    }
 
-
+    @Test
+    public void test4() {
+        Order<String> order = new Order<>();
+        Integer[] arr = new Integer[]{1, 2, 3, 4};
+        List<Integer> list = order.copyFromArrayToList(arr);
+        System.out.println(list);
 
     }
+
 }

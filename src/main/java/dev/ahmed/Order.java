@@ -1,5 +1,8 @@
 package dev.ahmed;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Custom Generic CLass
  * @author Ahmed Bughra
@@ -38,5 +41,24 @@ public class Order<T> {
                 ", orderId=" + orderId +
                 ", orderT=" + orderT +
                 '}';
+    }
+
+//    public static void show(T orderT) {
+//        System.out.println(orderT);
+//    }
+
+//    public show() {
+////        T[] arr = new T[10];
+////        T[] arr = (T[]) new Object[10];
+//    }
+
+    //Generic Method
+    public <E> List<E> copyFromArrayToList(E[] arr) {
+        ArrayList<E> list = new ArrayList<>();
+
+        for (E e : arr) {
+            list.add(e);
+        }
+        return list;
     }
 }
