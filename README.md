@@ -17,6 +17,6 @@ This project is aimed to help senior Java developers to dive deeper into the con
 The code in this project is for educational purposes only and should not be used in production. The author takes no responsibility for any issues arising from the use of the code in this project.
 
 ## 📧 Contact Me
-If you have any questions or suggestions, feel free to reach out to me at [YOUR_EMAIL].
+If you have any questions or suggestions, feel free to reach out to me at ahmedBughra@gmail.com.
 
 ## 🎉 Let's Get Started with Generics! 🎉
