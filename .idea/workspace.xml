@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49d127fa-72bf-4781-a686-2b89f68bf35d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ahmed/java2/GenericTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ahmed/java2/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ahmed/java2/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/ahmed/java2/GenericTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/ahmed/java2/GenericTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +166,10 @@
       <workItem from="1675763505824" duration="332000" />
       <workItem from="1675793918000" duration="11000" />
       <workItem from="1675794127175" duration="358000" />
-      <workItem from="1675975631566" duration="2665000" />
+      <workItem from="1675975631566" duration="2754000" />
+      <workItem from="1676110237188" duration="602000" />
+      <workItem from="1676133099034" duration="35000" />
+      <workItem from="1676147721534" duration="458000" />
     </task>
     <task id="LOCAL-00001" summary="Generic test">
       <created>1675545577453</created>
@@ -191,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675977718243</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="video day25 11">
+      <created>1675978382308</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1675978382308</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +219,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Generic test" />
     <MESSAGE value="video day25 10" />
-    <option name="LAST_COMMIT_MESSAGE" value="video day25 10" />
+    <MESSAGE value="video day25 11" />
+    <option name="LAST_COMMIT_MESSAGE" value="video day25 11" />
   </component>
 </project>

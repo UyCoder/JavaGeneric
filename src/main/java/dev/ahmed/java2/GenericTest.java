@@ -9,24 +9,16 @@ import java.util.List;
 
 /**
  *
- * 1. 泛型在继承方面的体现
- *
- *
- * 2. 通配符的使用
- *
  * @author ahmed
  * @create 2023 2:13
  */
 public class GenericTest {
 
     /*
-         1. The embodiment of generics in inheritance
-
-           Although class A is the parent class of class B, G<A> and G<B> do not have a child-parent relationship, and the two are in a parallel relationship.
-
-            Supplement: Class A is the parent class of class B, and A<G> is the parent class of B<G>
-
-          */
+      1. The embodiment of generics in inheritance
+        Although class A is the parent class of class B, G<A> and G<B> do not have a child-parent relationship, and the two are in a parallel relationship.
+        Supplement: Class A is the parent class of class B, and A<G> is the parent class of B<G>
+    */
     @Test
     public void test1(){
 
