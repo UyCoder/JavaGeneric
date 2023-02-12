@@ -23,7 +23,7 @@ import java.util.Date;
  */
 public class FileTest {
     /*
-1. How to create an instance of the File class
+    1. How to create an instance of the File class
          File(String filePath)
          File(String parentPath, String childPath)
          File(File parentFile, String childPath)
@@ -38,33 +38,33 @@ public class FileTest {
      */
     @Test
     public void test1(){
-        //构造器1
-        File file1 = new File("hello.txt");//相对于当前module
-        File file2 =  new File("D:\\workspace_idea1\\JavaSenior\\day08\\he.txt");
+        //constructor 1:
+        File file1 = new File("hello.txt");// Relative path
+        File file2 =  new File("D:\\workspace_idea1\\JavaSenior\\generic\\he.txt");//Absolute path
 
         System.out.println(file1);
         System.out.println(file2);
 
-        //构造器2：
+        //constructor 2:
         File file3 = new File("D:\\workspace_idea1","JavaSenior");
         System.out.println(file3);
 
-        //构造器3：
+        //constructor 3:
         File file4 = new File(file3,"hi.txt");
         System.out.println(file4);
     }
 
-    /*
-public String getAbsolutePath(): Get the absolute path
-public String getPath() : Get the path
-public String getName() : get the name
-public String getParent(): Get the upper-level file directory path. If not, return null
-public long length() : Get the length of the file (ie: the number of bytes). Could not get the length of the directory.
-public long lastModified() : Get the last modification time, in milliseconds
+    /**
+        public String getAbsolutePath(): Get the absolute path
+        public String getPath() : Get the path
+        public String getName() : get the name
+        public String getParent(): Get the upper-level file directory path. If not, return null
+        public long length() : Get the length of the file (ie: the number of bytes). Could not get the length of the directory.
+        public long lastModified() : Get the last modification time, in milliseconds
 
-The following two methods apply to file directories:
-public String[] list() : Get the name array of all files or file directories under the specified directory
-public File[] listFiles() : Get all the files in the specified directory or the File array of the file directory
+        The following two methods apply to file directories:
+        public String[] list() : Get the name array of all files or file directories under the specified directory
+        public File[] listFiles() : Get all the files in the specified directory or the File array of the file directory
 
      */
     @Test
@@ -119,13 +119,13 @@ public File[] listFiles() : Get all the files in the specified directory or the 
         System.out.println(renameTo);
 
     }
-    /*
-public boolean isDirectory(): Determine whether it is a file directory
-public boolean isFile() : Determine whether it is a file
-public boolean exists() : Determine whether it exists
-public boolean canRead() : determine whether it is readable
-public boolean canWrite() : determine whether it is writable
-public boolean isHidden() : determine whether to hide
+    /**
+        public boolean isDirectory(): Determine whether it is a file directory
+        public boolean isFile() : Determine whether it is a file
+        public boolean exists() : Determine whether it exists
+        public boolean canRead() : determine whether it is readable
+        public boolean canWrite() : determine whether it is writable
+        public boolean isHidden() : determine whether to hide
      */
     @Test
     public void test5(){
@@ -151,14 +151,14 @@ public boolean isHidden() : determine whether to hide
         System.out.println(file2.isHidden());
 
     }
-    /*
-Create the corresponding file or file directory in the hard disk
-public boolean createNewFile() : Create a file. If the file exists, do not create it and return false
-public boolean mkdir() : Create a file directory. If this file directory exists, it will not be created. If the upper directory of this file directory does not exist, it will not be created.
-public boolean mkdirs() : Create file directories. If this file directory exists, it will not be created. If the upper-level file directory does not exist, create it together
+    /**
+    Create the corresponding file or file directory in the hard disk
+    public boolean createNewFile() : Create a file. If the file exists, do not create it and return false
+    public boolean mkdir() : Create a file directory. If this file directory exists, it will not be created. If the upper directory of this file directory does not exist, it will not be created.
+    public boolean mkdirs() : Create file directories. If this file directory exists, it will not be created. If the upper-level file directory does not exist, create it together
 
-     Delete a file or directory of files from disk
-public boolean delete(): delete file or folder
+    Delete a file or directory of files from disk
+    public boolean delete(): delete file or folder
      Note on deletion: Delete in Java does not go to the recycle bin.
      */
     @Test
