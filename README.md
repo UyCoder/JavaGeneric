@@ -1,4 +1,4 @@
-# 💻 Senior Java: Understanding Generics 🧠
+# 💻 Senior Java: Understanding Generics 
 
 ## 📋 Summary
 This project is aimed to help senior Java developers to dive deeper into the concept of generics and gain a better understanding of how they can be used to write better and more efficient code.
