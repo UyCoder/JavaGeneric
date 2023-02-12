@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="49d127fa-72bf-4781-a686-2b89f68bf35d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/ahmed/java2/GenericTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/ahmed/java2/GenericTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +67,9 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Javad\IdeaProjects\JavaGeneric\src\main\java\dev\ahmed" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Javad\IdeaProjects\JavaGeneric\src\main\java\dev\ahmed" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -170,6 +172,7 @@
       <workItem from="1676110237188" duration="602000" />
       <workItem from="1676133099034" duration="35000" />
       <workItem from="1676147721534" duration="458000" />
+      <workItem from="1676237705505" duration="1169000" />
     </task>
     <task id="LOCAL-00001" summary="Generic test">
       <created>1675545577453</created>
@@ -199,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675978382308</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="video day25 15">
+      <created>1676237877722</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676237877722</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +230,7 @@
     <MESSAGE value="Generic test" />
     <MESSAGE value="video day25 10" />
     <MESSAGE value="video day25 11" />
-    <option name="LAST_COMMIT_MESSAGE" value="video day25 11" />
+    <MESSAGE value="video day25 15" />
+    <option name="LAST_COMMIT_MESSAGE" value="video day25 15" />
   </component>
 </project>
